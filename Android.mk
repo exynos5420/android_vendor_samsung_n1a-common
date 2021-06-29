@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter n1awifi,$(TARGET_DEVICE)),)
+ifneq ($(filter n1awifi n1a3g,$(TARGET_DEVICE)),)
 
 endif
